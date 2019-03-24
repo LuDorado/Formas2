@@ -1,1 +1,1 @@
-Inpresión de figuras geométricas usando multi-map para almacenarlas
+Impresión de figuras geométricas usando multi-map para almacenarlas
