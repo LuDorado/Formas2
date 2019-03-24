@@ -1,4 +1,3 @@
-#include "Circle.h"
 #include <iostream>
 #include <string>
 #define _USE_MATH_DEFINES
@@ -6,13 +5,16 @@
 
 using namespace std;
 
+#include "Circle.h"
+
 Circle::Circle(char *nombre) : Shape(nombre)
 {
+	cout << "circulo construido\n";
 }
-
 
 Circle::~Circle()
 {
+	cout << "circulo destruido\n";
 }
 
 void Circle::setBase()

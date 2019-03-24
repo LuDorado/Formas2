@@ -1,5 +1,10 @@
-#pragma once
+//#pragma once
+#ifndef SQUARE_H
+#define SQUARE_H
+#endif
+
 #include "Shape.h"
+
 class Square :
 	public Shape
 {

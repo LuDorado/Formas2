@@ -1,10 +1,15 @@
-#pragma once
+//#pragma once
+#ifndef TRIANGLE_H
+#define TRIANGLE_H
+#endif
+
 #include "Shape.h"
+
 class Triangle :
 	public Shape
 {
 public:
-
+	
 	Triangle(char *name);
 	~Triangle();
 	void setBase();

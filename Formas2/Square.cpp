@@ -1,16 +1,19 @@
-#include "Square.h"
 #include <iostream>
 #include <string>
 
 using namespace std;
 
+#include "Square.h"
+
 Square::Square(char *nombre) : Shape(nombre)
 {
+	cout << "cuadrado construido\n";
 }
 
 
 Square::~Square()
 {
+	cout << "cuadrado destruido\n";
 }
 
 void Square::setBase()

@@ -1,16 +1,22 @@
-#include "Shape.h"
 #include <string>
 #include <cstring>
 #include <iostream>
 
 using namespace std;
 
-Shape::Shape(char *name)
+#include "Shape.h"
+
+Shape::Shape()
 {
-	strcpy_s(figureName, name);
 }
 
+Shape::Shape(string name)
+{
+	figureName = name;
+	cout << "base construida\n";
+}
 
 Shape::~Shape()
 {
+	cout << "base destruida\n";
 }

@@ -1,7 +1,11 @@
-#pragma once
+//#pragma once
+#ifndef CIRCLE_H
+#define CIRCLE_H
+#endif
+
 #include "Shape.h"
-class Circle :
-	public Shape
+
+class Circle : public Shape
 {
 public:
 	Circle(char *nombre);

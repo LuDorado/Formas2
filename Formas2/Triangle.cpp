@@ -1,17 +1,21 @@
-#include "Triangle.h"
 #include <string>
 #include <iostream>
 #include <math.h>
 
 using namespace std;
 
+#include "Triangle.h"
+
 Triangle::Triangle(char *nombre) : Shape(nombre)
 {
+	cout << "triangulo construido\n";
 }
 
 
 Triangle::~Triangle()
 {
+	cout << "triangulo destruido\n";
+
 }
 
 void Triangle::setBase()
